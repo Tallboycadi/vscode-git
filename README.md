@@ -3,4 +3,4 @@
 Responsive HTML/CSS site with a working Formspree contact form. Deployed via **GitHub Pages**.
 
 **Tech:** HTML, CSS, Formspree, GitHub Pages  
-**Live URL:** https://<your-pages-url>
+**Live URL:** https://tallboycadi.github.io/vscode-git/
