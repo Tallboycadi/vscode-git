@@ -4,37 +4,163 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Cliffton Benford | Cloud & DevOps Engineer</title>
-  <meta name="description" content="Cloud & DevOps portfolio: AWS, Terraform, Kubernetes, Docker, CI/CD, HTML, S3, Formspree." />
+
+  <meta name="description"
+        content="Cloud & DevOps Engineer portfolio — AWS, Terraform, Docker, Kubernetes, CI/CD, Linux, VPC networking, and cloud-native projects." />
   <meta property="og:title" content="Cliffton Benford — Cloud & DevOps Portfolio" />
-  <meta property="og:description" content="Projects in AWS, Terraform, Kubernetes, Docker, CI/CD, HTML, S3." />
+  <meta property="og:description"
+        content="Hands-on projects in AWS, Terraform, Docker, Kubernetes, CI/CD, HTML, S3, and cloud networking." />
   <meta property="og:type" content="website" />
   <link rel="icon" href="favicon.ico" />
   <link rel="stylesheet" href="STYLES.CSS" />
 </head>
+
 <body>
-  <header class="container">
-    <h1>Cliffton Benford — Cloud & DevOps</h1>
+  <!-- Header / Hero -->
+  <header class="container hero">
+    <div class="hero-text">
+      <h1>Cliffton Benford</h1>
+      <p class="hero-subtitle">
+        Cloud &amp; DevOps Engineer &mdash; AWS · Terraform · Docker · Kubernetes · CI/CD
+      </p>
+      <p>
+        I design, build, and automate cloud-native infrastructure on AWS using Infrastructure as Code,
+        containers, and CI/CD pipelines. This site highlights my hands-on projects and portfolio work.
+      </p>
+
+      <div class="hero-actions">
+        <a class="btn primary"
+           href="resume/Cliffton_Benford_Cloud_DevOps_Resume1ST.pdf"
+           target="_blank" rel="noopener">
+          📄 Download Resume (PDF)
+        </a>
+        <a class="btn"
+           href="https://github.com/Tallboycadi"
+           target="_blank" rel="noopener">
+          💻 View GitHub
+        </a>
+        <a class="btn"
+           href="https://www.linkedin.com/in/clifftonbenford-47439036a"
+           target="_blank" rel="noopener">
+          🔗 View LinkedIn
+        </a>
+      </div>
+    </div>
   </header>
 
-  <main class="container">
-    <section class="container" id="resume">
-  <h2>Resume</h2>
-  <p>
-    <a class="btn" href="Cliffton_Benford_Cloud_Resume_PRO.pdf" target="_blank" rel="noopener">
-      Download Resume (PDF)
-    </a>
-  </p>
-</section>
-
-    <section>
+  <main class="container main-content">
+    <!-- About -->
+    <section id="about">
       <h2>About</h2>
-      <p>Cloud & DevOps Engineer skilled in AWS, Terraform, Kubernetes, Docker, CI/CD, HTML, S3, and Formspree.</p>
+      <p>
+        I’m a Cloud &amp; DevOps Engineer with hands-on experience designing, deploying, and automating
+        AWS infrastructure using Terraform, Docker, Kubernetes, CI/CD pipelines, Linux, and IaC best practices.
+        I focus on secure VPC networking, repeatable deployments, and building portfolio projects that mirror
+        real-world production environments.
+      </p>
+    </section>
+
+    <!-- Resume section (separate anchor for nav, if needed) -->
+    <section id="resume">
+      <h2>Resume</h2>
+      <p>
+        Download my latest Cloud &amp; DevOps resume here:
+      </p>
+      <p>
+        <a class="btn primary"
+           href="resume/Cliffton_Benford_Cloud_DevOps_Resume1ST.pdf"
+           target="_blank" rel="noopener">
+          📄 Cliffton Benford &mdash; Cloud &amp; DevOps Resume
+        </a>
+      </p>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+      <h2>Highlighted Cloud &amp; DevOps Projects</h2>
+
+      <div class="cards">
+        <!-- Project 1 -->
+        <article class="card">
+          <h3>Dockerized Node.js Starter Scaffold &mdash; CI/CD with GitHub Actions</h3>
+          <p class="card-meta">Docker · GitHub Actions · CI/CD · Node.js</p>
+          <p>
+            Containerized a Node.js starter app with a Dockerfile and automated CI/CD pipeline using GitHub Actions.
+            The workflow builds, tests, and pushes images, providing a reusable scaffold for cloud-native applications.
+          </p>
+          <a class="card-link"
+             href="https://github.com/Tallboycadi/my-starter-scaffold"
+             target="_blank" rel="noopener">
+            View project on GitHub →
+          </a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="card">
+          <h3>AWS VPC + S3 Endpoint + Free-Tier EC2 &mdash; Terraform IaC Project</h3>
+          <p class="card-meta">AWS · Terraform · VPC · S3 Endpoint · EC2</p>
+          <p>
+            Provisioned an AWS VPC with public and private subnets, Internet Gateway, route tables, and S3
+            Gateway Endpoints using Terraform. Deployed a free-tier EC2 instance with SSM and centralized an
+            S3 bucket for artifacts.
+          </p>
+          <a class="card-link"
+             href="https://github.com/Tallboycadi/s3-vpc-projects"
+             target="_blank" rel="noopener">
+            View project on GitHub →
+          </a>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="card">
+          <h3>Secure AWS VPC with ALB → Private EC2 (SSM), S3/DynamoDB Endpoints</h3>
+          <p class="card-meta">AWS Networking · Security · Terraform · IAM</p>
+          <p>
+            Designed a secure architecture with a public Application Load Balancer routing traffic to private EC2
+            instances (no public IPs), managed through SSM Session Manager. Used VPC Gateway Endpoints for S3 and
+            DynamoDB to remove NAT Gateway costs while keeping traffic inside AWS.
+          </p>
+          <a class="card-link"
+             href="https://github.com/Tallboycadi/vpc-alb-private-ec2-ssm"
+             target="_blank" rel="noopener">
+            View project on GitHub →
+          </a>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="card">
+          <h3>Cloud &amp; DevOps Engineer Portfolio Site</h3>
+          <p class="card-meta">HTML · CSS · GitHub Pages · Formspree</p>
+          <p>
+            Static portfolio website hosted on GitHub Pages to showcase Cloud &amp; DevOps projects,
+            with a working contact form integrated via Formspree and a downloadable resume.
+          </p>
+          <a class="card-link"
+             href="https://tallboycadi.github.io/vscode-git"
+             target="_blank" rel="noopener">
+            View live site →
+          </a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Core Skills</h2>
+      <ul class="skills-list">
+        <li><strong>Cloud:</strong> AWS (EC2, VPC, S3, IAM, RDS, CloudFront, Route 53, CloudWatch, ECS Fargate)</li>
+        <li><strong>IaC &amp; Automation:</strong> Terraform, GitHub Actions, Bash</li>
+        <li><strong>Containers:</strong> Docker, Kubernetes</li>
+        <li><strong>DevOps:</strong> CI/CD pipelines, Git, GitHub workflow automation</li>
+        <li><strong>Networking:</strong> VPC design, subnets, security groups, ALB, private/public architectures</li>
+        <li><strong>Linux:</strong> Linux administration, SSH, Bash scripting</li>
+      </ul>
     </section>
 
     <!-- Contact -->
-    <section id="contact" class="container">
+    <section id="contact">
       <h2>Contact Me</h2>
-      <p>Have a role or project in mind? Send me a message.</p>
+      <p>Have a role or project in mind? Send me a message and I’ll get back to you.</p>
 
       <form id="contact-form" action="https://formspree.io/f/xkgzzyeq" method="POST">
         <label>Your Name
@@ -58,15 +184,19 @@
     </section>
   </main>
 
-  <footer class="container">© 2025 Cliffton Benford</footer>
+  <footer class="container footer">
+    © 2025 Cliffton Benford &middot; Cloud &amp; DevOps Engineer
+  </footer>
 
   <script>
     // Inline success/fail message for Formspree
     const form = document.getElementById('contact-form');
     const status = document.getElementById('form-status');
+
     form.addEventListener('submit', async (e) => {
       e.preventDefault();
       status.textContent = 'Sending...';
+
       try {
         const data = new FormData(form);
         const res = await fetch(form.action, {
@@ -74,6 +204,7 @@
           body: data,
           headers: { 'Accept': 'application/json' }
         });
+
         if (res.ok) {
           form.reset();
           status.textContent = 'Thanks! Your message was sent.';
@@ -87,6 +218,4 @@
   </script>
 </body>
 </html>
-<a class="btn" href="resume/Cliffton_Benford_Cloud_Resume_COMBINED.pdf" target="_blank" rel="noopener">
-  Download Resume (PDF)
-</a>
+
